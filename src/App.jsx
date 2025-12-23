@@ -22,8 +22,8 @@ function App() {
         <Route path='warm-up' element={<ComicPage/>}/>
         <Route path='vocabulary' element={<VocabPage/>}/>
         <Route path='practice' element={<PracticePage/>}/>
-        <Route path='/comprehension' element={<VideoPage/>}/>
-        <Route path='/form' element={<FormPage/>}/>
+        <Route path='comprehension' element={<VideoPage/>}/>
+        <Route path='form' element={<FormPage/>}/>
       </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>
