@@ -2,15 +2,15 @@
   "name": "exam_3",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/DianaShe/Trial_lesson",
+  "homepage": "https://DianaSh.github.io/Trial_lesson",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --add"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
