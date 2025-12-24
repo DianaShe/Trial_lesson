@@ -1,10 +1,10 @@
 export const chapters = [
-  { id: 1, title: "Lesson goals", path: "goals" },
-  { id: 2, title: "Warm-up", path: "warm-up" },
-  { id: 3, title: "Vocabulary", path: "vocabulary" },
-  { id: 4, title: "Just practice", path: "practice" },
-  { id: 5, title: "Comprehension", path: "comprehension" },
-  { id: 6, title: "Your goals", path: "form" },
+  { id: 1, title: "Lesson goals", path: "/goals" },
+  { id: 2, title: "Warm-up", path: "/warm-up" },
+  { id: 3, title: "Vocabulary", path: "/vocabulary" },
+  { id: 4, title: "Just practice", path: "/practice" },
+  { id: 5, title: "Comprehension", path: "/comprehension" },
+  { id: 6, title: "Your goals", path: "/form" },
 ];
 
 export const phrases = [
